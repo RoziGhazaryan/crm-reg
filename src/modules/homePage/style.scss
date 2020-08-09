@@ -1,0 +1,7 @@
+@import './../../assets/style/global/variables.scss';
+@import './../../assets/style/global/global.scss';
+
+.testtt {
+    @include wh(100%, 50px);
+    background-color: $staticColor;
+}
