@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.scss";
-import HeaderPart from "../../components/header/Header";
+import Header from "../../components/header/Header";
 
 function SignIn() {
   return (
     <div>
-      <HeaderPart />
+      <Header />
     </div>
   );
 }
