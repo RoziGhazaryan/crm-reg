@@ -1,3 +1,8 @@
 @import './global/flexbox.scss';
 @import './global/variables.scss';
 @import './global/global.scss';
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}

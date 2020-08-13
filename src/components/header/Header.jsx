@@ -32,7 +32,6 @@ return (
                 </Link>
             </div>
         </div>
-
     </header>
 </div>
 );

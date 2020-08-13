@@ -7,18 +7,6 @@
     background-size: $bgSize;
 }
 
-// FONTS
-@mixin fontFutura($fontSize, $fontWeight) {
-    font-size: $fontSize;
-    font-weight: $fontWeight;
-    font-style: normal;
-}
-
-@mixin fontOpenSans($fontSize, $fontFamily) {
-    font-size: $fontSize;
-    font-family: $fontFamily;
-}
-
 // WIDTH_HEIGHT
 @mixin wh100 {
     width: 100%;
