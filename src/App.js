@@ -2,8 +2,8 @@ import React from "react";
 import './assets/style/index.scss';
 import 'antd/dist/antd.css';
 import Register from "./modules/register";
-import { BrowserRouter } from 'react-router-dom';
 import SignIn from "./modules/signIn";
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return ( 
