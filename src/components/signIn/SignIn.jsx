@@ -28,8 +28,8 @@ const onFinishFailed = errorInfo => {
 console.log('Failed:', errorInfo);
 };
 return (
-<div className='sign-in d_flex a_items_center j_content_center'>
-    <div className='sign-in-block'>
+<div className='sign sign-in d_flex a_items_center j_content_center'>
+    <div className='sign-block'>
         <div className='logo'>
             <img src={require('./../../assets/img/logo.png')} alt="logo" />
         </div>
@@ -44,7 +44,7 @@ return (
                     <span class="input-area-placeholder">Login</span>
                 </Form.Item>
 
-                <Form.Item name="username" rules={[ { required: true, message: 'Please input your username!' , }, ]}>
+                <Form.Item name="username" rules={[ { required: true, message: 'Please input your password!' , }, ]}>
                     <Input placeholder="&nbsp;" type="password"/>
                     <span class="input-area-placeholder">Password</span>
                 </Form.Item>

@@ -7,6 +7,13 @@
     background-size: $bgSize;
 }
 
+// FONT
+@mixin font($fontSize, $fontWeight) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    font-style: normal;
+}
+
 // WIDTH_HEIGHT
 @mixin wh100 {
     width: 100%;
