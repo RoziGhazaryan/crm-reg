@@ -1,0 +1,49 @@
+@import './../../assets/style/global/variables.scss';
+@import './../../assets/style/global/global.scss';
+@import './responsive.scss';
+
+.ant-upload {
+    width: 100%;
+    position: relative;
+
+    .ant-btn {
+        color: #0074B6;
+        text-align: start;
+        border-radius: 8px;
+        border: 1px dashed #808080;
+
+        &:hover {
+            border: 1px dashed #808080;
+        }
+
+        span {
+            @include font(16px, 300);
+            line-height: 21px;
+        }
+    }
+    
+    .file-icon {
+        @include wh(14px, 13px);
+        position: absolute;
+        top: 0;
+        left: 102px;
+        svg {
+            @include wh100;
+        }
+    }
+}
+
+.register .sign-block {
+    padding: 38px 89px 48px 55px;
+} 
+
+.form-item-list {
+    margin: 0 -24px;
+    .form-item-block {
+        width: 256px;
+        padding: 0 24px;
+        .ant-form-item-has-error .ant-form-item-explain {
+            font-size: 12px;
+        }
+    }
+}

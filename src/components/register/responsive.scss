@@ -1,0 +1,30 @@
+  @media (max-width: 767.98px) {
+     .sign.register {
+        .sign-block {
+            padding: 40px;
+        }
+     }
+  }
+
+  @media (max-width: 575.98px) {
+
+      .sign.register {
+          height: auto;
+
+          .sign-block {
+              width: 100%;
+              padding: 30px;
+              border-radius: 0;
+
+              .form-item-list {
+                  flex-direction: column;
+
+                  .form-item-block {
+                      width: 100%;
+                  }
+              }
+          }
+
+      }
+
+  }

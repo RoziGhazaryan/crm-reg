@@ -24,8 +24,7 @@ header {
             &::before {
                 content: "";
                 position: absolute;
-                width: 1px;
-                height: 12px;
+                @include wh(1px, 12px);
                 top: 50%;
                 left: 0;
                 transform: translateY(-50%);
